@@ -14,5 +14,5 @@ if [ $invalid_cases == 0 ]; then
     NUM_CHARS=$(cat convert_roman_numerals.go | wc | awk '{print $3}')
     echo "Congratulations! Your code converted all roman numerals using only $NUM_CHARS characters"
 else
-    echo "Your code failed on $invalid_cases cases"
+    echo "Unfortunately your code failed on $invalid_cases cases. Only submissions that succceed on all cases will be counted for minimizing characters"
 fi
