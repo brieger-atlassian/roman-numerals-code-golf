@@ -1,7 +1,6 @@
+go build -o convert_roman_numerals convert_roman_numerals.go
 
 invalid_cases=0
-
-go build -o convert_roman_numerals convert_roman_numerals.go
 
 while IFS=, read -r column1 column2; do
     output=$(./convert_roman_numerals "$column1")

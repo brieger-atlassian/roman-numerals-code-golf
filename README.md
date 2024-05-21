@@ -17,6 +17,6 @@ Just run `./run_code_golf.sh` and it will evaluate your submission. If all test 
 
 ## Resources
 
-How to use Roman Numerals: https://byjus.com/maths/roman-numerals/#:~:text=In%20roman%20numerals%2C%20alphabets%20are,%2C%20%E2%80%A6%20till%20XX%20for%2020.
+[How to use Roman Numerals](https://byjus.com/maths/roman-numerals/#:~:text=In%20roman%20numerals%2C%20alphabets%20are,%2C%20%E2%80%A6%20till%20XX%20for%2020.)
 
-Find some starter tricks for optimizing your solution here: https://www.reddit.com/r/golang/comments/g4iwzl/code_golfing_in_go_tips_and_tricks/
+Find some starter tricks for optimizing your solution [here](https://www.reddit.com/r/golang/comments/g4iwzl/code_golfing_in_go_tips_and_tricks/)
