@@ -5,6 +5,8 @@ import (
 	"os"
 )
 
+// TODO: shrink this file as much as possible
+
 func main() {
 	input := os.Args[1]
 
