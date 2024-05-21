@@ -6,16 +6,12 @@ import (
 )
 
 func main() {
-	// Printing
-	fmt.Println("Hello, World!")
+	input := os.Args[1]
 
-	// Looping
-	for i := range 10 {
-		fmt.Println(i)
-	}
+	fmt.Println(convertToRoman(input))
+}
 
-	// Accessing arguments
-	for _, arg := range os.Args[1:] {
-		fmt.Println(arg)
-	}
+func convertToRoman(input string) string {
+	// TODO: convert to roman numeral
+	return "I"
 }
