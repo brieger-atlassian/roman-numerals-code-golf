@@ -1,16 +1,18 @@
 
 invalid_cases=0
 
-go build -o roman_numerals_executable convert_roman_numerals.go
+go build -o convert_roman_numerals convert_roman_numerals.go
 
 while IFS=, read -r column1 column2; do
-    output=$(./roman_numerals_executable "$column1")
+    output=$(./convert_roman_numerals "$column1")
     if [ "$output" != "$column2" ]; then
         ((invalid_cases++))
     fi
 done < "roman_numerals.csv"
 
-echo $invalid_cases
-
-NUM_CHARS=$(cat convert_roman_numerals.go | wc | awk '{print $3}')
-echo $NUM_CHARS
+if [ $invalid_cases == 0 ]; then
+    NUM_CHARS=$(cat convert_roman_numerals.go | wc | awk '{print $3}')
+    echo "Congratulations! Your code converted all roman numerals using only $NUM_CHARS characters"
+else
+    echo "Some test cases failed"
+fi
