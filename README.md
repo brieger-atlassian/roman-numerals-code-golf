@@ -2,7 +2,7 @@
 
 Roman numerals originated in ancient Rome and were used throughout Europe until the late Middle Ages. They are still used today in cultural institutions such as the Super Bowl. Today you will write a program to convert integers between 1 and 3999 into Roman Numerals - but with a twist: you must write your solution using as few characters as possible!
 
-Your objective is to change the contents of convert_roman_numerals.go to have as few characters as possible. I recommend writing a working solution first, and then modifying it to reduce the number of characters. Whichever team writes the code with the fewest characters that converts ALL roman numerals wins!
+Your objective is to change the contents of convert_roman_numerals.go to convert an integer input into a Roman Numeral. I recommend writing a working solution first, and then modifying it to reduce the number of characters. Whichever team writes the code with the fewest characters that converts ALL roman numerals wins!
 
 ## Usage
 
